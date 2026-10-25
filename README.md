@@ -24,7 +24,6 @@ pip install -r requirements.txt
 python app.py
 ```
 
-Server starts at **http://127.0.0.1:5000**
 
 You should see:
 ```
@@ -45,7 +44,7 @@ npm install
 npm run dev
 ```
 
-App opens at **http://localhost:8080**
+
 
 A status indicator in the bottom-right corner shows whether the backend is live:
 - 🟢 **BACKEND ONLINE** — using real ML models
