@@ -13,7 +13,9 @@
  */
 
 // Change this if your backend runs on a different host/port
-export const BACKEND_URL = "http://127.0.0.1:5000";
+export const BACKEND_URL =
+  import.meta.env.VITE_API_URL ||
+  "https://digital-guardian-backend.onrender.com";
 
 export interface AnalysisResult {
   riskScore: number;
